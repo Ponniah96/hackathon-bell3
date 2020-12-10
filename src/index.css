@@ -12,6 +12,32 @@ code {
     monospace;
 }
 
+.header{
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+  box-shadow: 0px 2px 4px 0px rgba(162,162,162,0.5);
+}
+
+.video-player-section{
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
 .video-player{
-  padding: 150px 360px;
+  width: 640px;
+  height: 350px;
+  margin: 0 auto;  
+}
+@media(max-width:565px){
+  .video-player{
+    width: 100% !important;
+    height: 300px;  
+  }
 }
