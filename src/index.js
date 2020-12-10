@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='video-player' >
+    <div className='video-player test' >
       <ReactPlayer url='https://www.youtube.com/watch?v=JtUIQz_EkUw'/>
     </div>
   </React.StrictMode>,
