@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactPlayer from 'react-player';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='video-player' >
+      <ReactPlayer url='https://www.youtube.com/watch?v=JtUIQz_EkUw'/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
